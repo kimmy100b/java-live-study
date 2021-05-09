@@ -41,7 +41,7 @@
 
 
 | 타입  | 할당되는 메모리의 크기 | 데이터의 표현 범위 |
-|——-|———————-|——————|
+|----|-------|----|
 | boolean | 1byte  | true 또는 false    |
 
 **2. 문자형**
@@ -51,7 +51,7 @@
 [문자형의 표현 범위]
 
 | 타입 | 할당되는 메모리의 크기 | 데이터의 표현 범위 |
-|—-|———————-|——————|
+|----|-------|----|
 | char | 2byte    | 0 ~ 216 |
 
 **3. 정수형**
@@ -65,7 +65,7 @@
 그래서 n비트로 표현할 수 있는 값의 개수인 개에서, 절반인 ‘0’(양수비트)으로 시작하는 $2^n-1$개의 값을 양수를 표현하는데 사용하고, 나머지 절반인 ‘1’(음수비트)로 시작하는 $2^n-1$개의 값은 음수의 표현에 사용된다.
 
 | 타입  | 할당되는 메모리의 크기 | 데이터의 표현 범위         |
-|—– |———————-|——————————————————|
+|------|-------|--------|
 | byte  | 1byte    | -128 ~ 127   |
 | short | 2byte    | -32,768 ~ 32,767           |
 | int   | 4byte    | -2,147,483,648 ~ 2,147,483,647           |
@@ -78,12 +78,12 @@
 [실수형의 표현범위]
 
 | 타입   | 할당되는 메모리의 크기 | 데이터의 표현 범위(양수)             | 정밀도 |
-|——|———————-|————————————————– |——|
+|----|-------|--------|----|
 | float  | 4byte    | (1.4 X 10-45) ~ (3.4 X 1038) | 7자리  |
 | double | 8byte    | (4.9 X 10-324) ~ (1.8 X 308) | 15자리 |
 
 | 타입   | 할당되는 메모리의 크기 | 데이터의 표현 범위(양수)             | 정밀도 |
-|——|———————-|————————————————– |——|
+|----|-------|--------|----|
 | float  | 4byte    | (1.4 X 10-45) ~ (3.4 X 1038) | 7자리  |
 | double | 8byte    | (4.9 X 10-324) ~ (1.8 X 308) | 15자리 |
 
@@ -134,7 +134,7 @@ final int MAX = 100;
 **리터럴과 접미사**
 
 | 종류 |       리터럴          |   접미사  |
-|——|———————-|————————————————– | 
+|----|-------|----| 
 | 논리형 | false, true            | 없음 |
 | 정수형 | 123, 0b0101, 077, 0xFF, 100L | L |
 | 실수형 | 3.14, 3.0e8, 1.4f | f,d |
@@ -242,7 +242,7 @@ year = 2034;
 
 예제를 살펴보자. (빨간색 - class 변수, 노란색 - instance 변수, 파란색 - local 변수)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7cab8b13-050b-473e-9eb2-17ebd2540b9d/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7cab8b13-050b-473e-9eb2-17ebd2540b9d/Untitled.png)
+![](./week02_01.jpg)
 
 ```java
 public class week02Test {
@@ -347,7 +347,7 @@ int y = (int) x; // y의 값은 10이 된다.
 
 배열은 같은 타입의 여러 변수를 하나의 묶음으로 다루는 것이다. 
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f7ae2392-bb4f-4509-8bab-2419696b8108/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f7ae2392-bb4f-4509-8bab-2419696b8108/Untitled.png)
+![](./week02_02.png)
 
 위 이미지는 정수 6개를 담을 수 있는 배열이 선언된 것이다.
 
@@ -395,7 +395,7 @@ int[] score = new int [10]; // 배열 선언과 생성을 동시에
 
 2차원 배열이란 배열의 배열이다. 
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/726780e7-ca94-410c-a4a4-f094a44e4329/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/726780e7-ca94-410c-a4a4-f094a44e4329/Untitled.png)
+![](./week02_03.png)
 
 위 이미지는 정수를 6개 담을 수 있는 배열이 4개 생성된 것이다.
 
@@ -427,7 +427,7 @@ int[][] array4 = new int[4][6];
 
 각 배열의 크기를 다르게 지정할 수 있다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/19739045-c41d-4f42-b572-22d5c7c566f1/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/19739045-c41d-4f42-b572-22d5c7c566f1/Untitled.png)
+![](./week02_04.png)
 
 **가변크기의 2차원 배열을 생성하는 방법**
 
