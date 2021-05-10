@@ -6,8 +6,8 @@
 
 # 목차
 
-- [프리미티브 타입 종류와 값의 범위 그리고 기본 값](#Primitive-Type(기본형-프리미티브 타입))
-- [프리미티브 타입과 레퍼런스 타입](#Reference-Type(참조형-레퍼런스-타입))
+- [프리미티브 타입 종류와 값의 범위 그리고 기본 값](#Primitive-Type기본형-프리미티브 타입)
+- [프리미티브 타입과 레퍼런스 타입](#Reference-Type참조형-레퍼런스-타입)
 - [리터럴](#변수-상수-리터럴)
 - [변수 선언 및 초기화하는 방법](#변수-선언-및-초기화하는-방법)
 - [변수의 스코프와 라이프타임](#변수의-스코프와-라이프타임)
@@ -476,12 +476,12 @@ var를 사용함으로 Java Script와 비슷하게 Java가 동적인 특징을 �
 
 # 참고
 
-[변수의 scope와 static]([https://programmers.co.kr/learn/courses/5/lessons/231#](https://programmers.co.kr/learn/courses/5/lessons/231#))
+[변수의 scope와 static](https://programmers.co.kr/learn/courses/5/lessons/231)
 
-[변수의 스코프와 라이프타임]([https://www.learningjournal.guru/article/programming-in-java/scope-and-lifetime-of-a-variable/](https://www.learningjournal.guru/article/programming-in-java/scope-and-lifetime-of-a-variable/))
+[변수의 스코프와 라이프타임](https://www.learningjournal.guru/article/programming-in-java/scope-and-lifetime-of-a-variable/)
 
-[타입 변환]([http://www.tcpschool.com/java/java_datatype_typeConversion](http://www.tcpschool.com/java/java_datatype_typeConversion))
+[타입 변환](http://www.tcpschool.com/java/java_datatype_typeConversion)
 
-[2차원 배열]([https://programmers.co.kr/learn/courses/5/lessons/135](https://programmers.co.kr/learn/courses/5/lessons/135))
+[2차원 배열](https://programmers.co.kr/learn/courses/5/lessons/135)
 
-[타입추론, var]([https://congcoding.tistory.com/60](https://congcoding.tistory.com/60))
+[타입추론, var](https://congcoding.tistory.com/60)
