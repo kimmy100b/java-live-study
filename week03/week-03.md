@@ -120,12 +120,12 @@ public class week03Test02 {
 
 ```java
 반환타입 메서드명 (매개변수) {
-		내용
+	내용
 }
 
 // 위 메서드를 람다식으로 작성
 (매개변수) -> {
-		내용
+	내용
 }
 ```
 
@@ -135,7 +135,7 @@ public class week03Test02 {
 
 ```java
 void printVar(String name){
-	System.out.println("이름 : "+name);
+    System.out.println("이름 : "+name);
 }
 
 //람다식 1.

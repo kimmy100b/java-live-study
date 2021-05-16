@@ -12,7 +12,7 @@
 
 * [1주차 과제: JVM은 무엇이며 자바 코드는 어떻게 실행하는 것인가.](https://github.com/kimmy100b/java-live-study/blob/master/week01/week-01.md)
 * [2주차 과제: 자바 데이터 타입, 변수 그리고 배열](https://github.com/kimmy100b/java-live-study/blob/master/week02/week-02.md)
-* [3주차 과제: 연산자](https://github.com/whiteship/live-study/issues/3)
+* [3주차 과제: 연산자](https://github.com/kimmy100b/java-live-study/blob/master/week03/week-03.md)
 * [4주차 과제: 제어문](https://github.com/whiteship/live-study/issues/4)
 * [5주차 과제: 클래스](https://github.com/whiteship/live-study/issues/5)
 * [6주차 과제: 상속](https://github.com/whiteship/live-study/issues/6)
