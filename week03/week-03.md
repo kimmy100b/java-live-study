@@ -251,6 +251,8 @@ int sumArr(int[] arr) {
 
 3. 단항 연산자의 대입 연산자를 제외한 모든 연산의 진행방향은 왼쪽에서 오른쪽이다.
 
+![](./week03_01.png "출처 : https://noritersand.github.io/java/java-%EC%97%B0%EC%82%B0%EC%9E%90-operator/")
+
 <br>
 
 # Java 13. switch 연산자
@@ -382,6 +384,8 @@ public static void main(String args){
 	System.out.println("season");
 }
 ```
+
+<br>
 
 # 참고
 
